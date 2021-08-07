@@ -2,7 +2,7 @@ require 'yomu/version'
 
 require 'net/http'
 require 'mime/types'
-require 'json'
+require 'oj'
 
 require 'socket'
 require 'stringio'
