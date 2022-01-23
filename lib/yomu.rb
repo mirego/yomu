@@ -8,7 +8,7 @@ require 'socket'
 require 'stringio'
 
 class Yomu
-  TIKA_APP_VERSION = '2.1.0'.freeze
+  TIKA_APP_VERSION = '2.2.1'.freeze
 
   GEMPATH = File.dirname(File.dirname(__FILE__))
   TIKA_PATH = File.join(Yomu::GEMPATH, 'jar', "tika-app-#{TIKA_APP_VERSION}.jar")
