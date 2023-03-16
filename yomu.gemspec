@@ -21,7 +21,9 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'mime-types', '>= 3.3.0'
   spec.add_runtime_dependency 'oj', '>= 3.12.0'
 
-  spec.add_development_dependency 'bundler', '~> 1.3'
+  spec.required_ruby_version = '>= 3.2.0'
+
+  spec.add_development_dependency 'bundler', '~> 2.4'
   spec.add_development_dependency 'rake'
-  spec.add_development_dependency 'rspec', '~> 2.14'
+  spec.add_development_dependency 'rspec', '~> 3.12'
 end
